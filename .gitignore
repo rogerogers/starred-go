@@ -1,0 +1,15 @@
+# Binaries
+/starred
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
