@@ -46,7 +46,7 @@ Options:
       --topic-limit   Topic 筛选门槛，仅统计 star 数大于该值的 topic (默认: 500)
   -r, --repository    自动提交到的目标 GitHub 仓库名 (如 awesome-stars)
   -f, --filename      目标文件名 (默认: README.md)
-  -m, --message       Git 提交信息 (默认: "update awesome-stars, created by starred")
+  -m, --message       Git 提交信息 (默认: "update awesome-stars, created by starred-go")
       --private       包含私有仓库 (默认: false)
   -o, --out           直接输出到本地文件路径
   -v, --version       查看版本号

@@ -31,7 +31,7 @@ Options:
       --topic-limit   Topic stargazer count threshold (default: 500)
   -r, --repository    GitHub repository name to commit to
   -f, --filename      File name to commit or save (default: README.md)
-  -m, --message       Commit message (default: "update awesome-stars, created by starred")
+  -m, --message       Commit message (default: "update awesome-stars, created by starred-go")
       --private       Include private repositories (default: false)
   -o, --out           Output directly to a local file path
   -v, --version       Show version information
@@ -43,7 +43,7 @@ func parseFlags() (*Config, error) {
 	cfg := &Config{
 		TopicLimit: 500,
 		Filename:   "README.md",
-		Message:    "update awesome-stars, created by starred",
+		Message:    "update awesome-stars, created by starred-go",
 	}
 
 	// Environment variable defaults
